@@ -8,7 +8,8 @@
     ],
     "location": {
       "en": "Turkey",
-      "de": "T\u00fcrkei"
+      "de": "T\u00fcrkei",
+      "tr": "T\u00fcrkiye"
     }
   },
   "social": [
@@ -45,8 +46,8 @@
   "music": {
     "tracks": {
       "luci": {
-        "src": "music/luci.ogg",
-        "volume": 0.2
+        "src": "music/ati242.mp3",
+        "volume": 0.3
       },
       "about": {
         "src": "music/ambient-pads.ogg",
@@ -82,6 +83,21 @@
            "T\u00fcrkisch",
         "Deutsch",
         "Portugiesisch"
+      ],
+      "detailsName": "Yunus Emre"
+    },
+    "tr": {
+      "services": [
+        "React, Next.js & Vue",
+        "Flutter, Kotlin & Swift",
+        "Node.js & Backend Geliştirme",
+        "Full-stack Mimari"
+      ],
+      "languages": [
+        "İngilizce",
+           "Türkçe",
+        "Almanca",
+        "Portekizce"
       ],
       "detailsName": "Yunus Emre"
     }
@@ -151,375 +167,7 @@
         "switch-to-project": "Zum Projekt {project} wechseln",
         "version": "Version",
         "view-project": "Projekt ansehen"
-      }
     }
-  },
-  "projects": [
-    {
-      "slug": "streakon",
-      "thumbnail": "thumbnails/streakon.webp",
-      "content": {
-        "en": {
-          "title": "StreakOn",
-          "previewDescription": "Social habit tracking app",
-          "theme": "dark",
-          "tags": [
-            "next",
-            "node",
-            "postgresql",
-            "redis"
-          ],
-          "videoBorder": false,
-          "live": "https://www.streakon.app",
-          "description": "StreakOn helps small groups stay consistent with daily habits through shared streaks and simple check-ins.<br/><br/>The app was designed around low friction interactions, mobile usability, and lightweight social features, using Next.js, Node.js, PostgreSQL, and Redis.",
-          "components": [
-            {
-              "type": "media",
-              "props": {
-                "type": "image",
-                "src": "images/projects/streakon/streakon-0.webp",
-                "alt": "Solo and group streaks",
-                "caption": "Solo and group streaks"
-              }
-            },
-            {
-              "type": "media",
-              "props": {
-                "type": "image",
-                "src": "images/projects/streakon/streakon-1.webp",
-                "alt": "Streak progress",
-                "caption": "Streak progress"
-              }
-            },
-            {
-              "type": "media",
-              "props": {
-                "type": "image",
-                "src": "images/projects/streakon/streakon-2.webp",
-                "alt": "Cheer for friends",
-                "caption": "Cheer for friends"
-              }
-            },
-            {
-              "type": "media",
-              "props": {
-                "type": "image",
-                "src": "images/projects/streakon/streakon-3.webp",
-                "alt": "Invite Flow",
-                "caption": "Invite Flow"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "slug": "cubewar",
-      "thumbnail": "thumbnails/cubewar.webp",
-      "content": {
-        "en": {
-          "title": "CubeWar",
-          "previewDescription": "Multiplayer strategy game",
-          "theme": "dark",
-          "tags": [
-            "three",
-            "node",
-            "websockets",
-            "redis"
-          ],
-          "videoBorder": false,
-          "live": "https://cubewar.io",
-          "description": "CubeWar is a browser-based multiplayer game where players control cube avatars in fast-paced strategic battles.<br/><br/>I built the full stack myself, including the game engine, the client-side timeline system, and real-time networking with Redis-based matchmaking for smooth, high-concurrency gameplay.",
-          "components": [
-            {
-              "type": "media",
-              "props": {
-                "type": "video",
-                "src": "videos/cubewar.mp4",
-                "caption": "Gameplay"
-              }
-            },
-            {
-              "type": "media",
-              "props": {
-                "type": "image",
-                "src": "images/projects/cubewar/cubewar-0.webp",
-                "alt": "Tutorial",
-                "caption": "Tutorial"
-              }
-            },
-            {
-              "type": "media",
-              "props": {
-                "type": "image",
-                "src": "images/projects/cubewar/cubewar-1.webp",
-                "alt": "Map Themes",
-                "caption": "Map Themes"
-              }
-            },
-            {
-              "type": "media",
-              "props": {
-                "type": "image",
-                "src": "images/projects/cubewar/cubewar-2.webp",
-                "alt": "Authentication",
-                "caption": "Authentication"
-              }
-            },
-            {
-              "type": "media",
-              "props": {
-                "type": "image",
-                "src": "images/projects/cubewar/cubewar-3.webp",
-                "alt": "Responsive Design",
-                "caption": "Responsive Design"
-              }
-            },
-            {
-              "type": "media",
-              "props": {
-                "type": "image",
-                "src": "images/projects/cubewar/cubewar-4.webp",
-                "alt": "Multiple Gamemodes",
-                "caption": "Multiple Gamemodes"
-              }
-            },
-            {
-              "type": "media",
-              "props": {
-                "type": "image",
-                "src": "images/projects/cubewar/cubewar-5.webp",
-                "alt": "Party System",
-                "caption": "Party System"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "slug": "quibbo",
-      "thumbnail": "thumbnails/quibbo.webp",
-      "content": {
-        "en": {
-          "title": "Quibbo",
-          "previewDescription": "Multiplayer gaming platform",
-          "theme": "light",
-          "tags": [
-            "three",
-            "node",
-            "kubernetes",
-            "redis",
-            "postgresql"
-          ],
-          "videoBorder": true,
-          "description": "Quibbo is a platform for fast, round-based multiplayer games. It brings together matchmaking, customizable 3D avatars, and account integration with ranked rewards.<br/><br/>The project started as a technical experiment and grew into a scalable system for testing new game ideas.",
-          "components": [
-            {
-              "type": "media",
-              "props": {
-                "type": "video",
-                "src": "videos/quibbo.mp4",
-                "caption": "User Experience"
-              }
-            },
-            {
-              "type": "media",
-              "props": {
-                "type": "image",
-                "src": "images/projects/quibbo/quibbo-0.webp",
-                "alt": "Avatar Creator",
-                "caption": "Avatar Creator"
-              }
-            },
-            {
-              "type": "media",
-              "props": {
-                "type": "image",
-                "src": "images/projects/quibbo/quibbo-1.webp",
-                "alt": "Multiplayer Tic-Tac-Toe",
-                "caption": "Multiplayer Tic-Tac-Toe"
-              }
-            },
-            {
-              "type": "media",
-              "props": {
-                "type": "image",
-                "src": "images/projects/quibbo/quibbo-2.webp",
-                "alt": "Multiple Mini-Games",
-                "caption": "Multiple Mini-Games"
-              }
-            },
-            {
-              "type": "media",
-              "props": {
-                "type": "image",
-                "src": "images/projects/quibbo/quibbo-3.webp",
-                "alt": "Avatar Variations",
-                "caption": "Avatar Variations"
-              }
-            },
-            {
-              "type": "media",
-              "props": {
-                "type": "image",
-                "src": "images/projects/quibbo/quibbo-4.webp",
-                "alt": "Responsive Design",
-                "caption": "Responsive Design"
-              }
-            },
-            {
-              "type": "media",
-              "props": {
-                "type": "image",
-                "src": "images/projects/quibbo/quibbo-5.webp",
-                "alt": "Dark Mode",
-                "caption": "Dark Mode"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "slug": "sharkie",
-      "thumbnail": "thumbnails/sharkie.webp",
-      "content": {
-        "en": {
-          "title": "Sharkie",
-          "previewDescription": "2D adventure game",
-          "theme": "light",
-          "tags": [
-            "javascript",
-            "html",
-            "css"
-          ],
-          "live": "https://sharkie.david-hckh.com/",
-          "source": "https://github.com/davidhckh/sharkie-game",
-          "description": "Sharkie is a 2D underwater adventure game built with vanilla JavaScript and HTML5 Canvas.<br/><br/>The project is structured around object-oriented programming principles, featuring custom classes for entities, enemies, and game systems, alongside smooth animations, combat mechanics, and layered parallax backgrounds.",
-          "components": [
-            {
-              "type": "media",
-              "props": {
-                "type": "video",
-                "src": "videos/sharkie.mp4",
-                "caption": "Gameplay"
-              }
-            },
-            {
-              "type": "media",
-              "props": {
-                "type": "image",
-                "src": "images/projects/sharkie/sharkie-0.webp",
-                "alt": "Entities And Map Design",
-                "caption": "Entities And Map Design"
-              }
-            },
-            {
-              "type": "media",
-              "props": {
-                "type": "image",
-                "src": "images/projects/sharkie/sharkie-1.webp",
-                "alt": "Boss Fight",
-                "caption": "Boss Fight"
-              }
-            },
-            {
-              "type": "media",
-              "props": {
-                "type": "image",
-                "src": "images/projects/sharkie/sharkie-2.webp",
-                "alt": "Mission",
-                "caption": "Mission"
-              }
-            },
-            {
-              "type": "media",
-              "props": {
-                "type": "image",
-                "src": "images/projects/sharkie/sharkie-3.webp",
-                "alt": "Victory Screen",
-                "caption": "Victory Screen"
-              }
-            },
-            {
-              "type": "media",
-              "props": {
-                "type": "image",
-                "src": "images/projects/sharkie/sharkie-4.webp",
-                "alt": "Death Screen",
-                "caption": "Death Screen"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "slug": "pokedex",
-      "thumbnail": "thumbnails/pokedex.webp",
-      "content": {
-        "en": {
-          "title": "Pokedex",
-          "previewDescription": "Open-source learning project",
-          "theme": "light",
-          "tags": [
-            "javascript",
-            "html",
-            "css"
-          ],
-          "live": "https://pokedex.david-hckh.com/",
-          "source": "https://github.com/davidhckh/pokedex",
-          "videoBorder": true,
-          "description": "One of my first web projects to practice basic web development concepts. The Pokedex is open source so other developers can learn the same way I did.<br/><br/>It also interacts with a public API, to get more experience with asynchronous data fetching.",
-          "components": [
-            {
-              "type": "media",
-              "props": {
-                "type": "video",
-                "src": "videos/pokedex.mp4",
-                "caption": "Pokedex App"
-              }
-            },
-            {
-              "type": "media",
-              "props": {
-                "type": "image",
-                "src": "images/projects/pokedex/pokedex-0.webp",
-                "alt": "Default View",
-                "caption": "Default View"
-              }
-            },
-            {
-              "type": "media",
-              "props": {
-                "type": "image",
-                "src": "images/projects/pokedex/pokedex-1.webp",
-                "alt": "Search Function",
-                "caption": "Search Function"
-              }
-            },
-            {
-              "type": "media",
-              "props": {
-                "type": "image",
-                "src": "images/projects/pokedex/pokedex-2.webp",
-                "alt": "Responsive Design",
-                "caption": "Responsive Design"
-              }
-            },
-            {
-              "type": "media",
-              "props": {
-                "type": "image",
-                "src": "images/projects/pokedex/pokedex-3.webp",
-                "alt": "Lazy Loading",
-                "caption": "Lazy Loading"
-              }
-            }
-          ]
-        }
-      }
-    }
-  ]
+  }
+}
 }

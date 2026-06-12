@@ -263,6 +263,111 @@ const createSoftBridgeFrame = (sourceFrame?: Mesh) => {
   return poster;
 };
 
+const createTurkishFlagTexture = () => {
+  const canvas = document.createElement("canvas");
+  canvas.width = 1024;
+  canvas.height = 682;
+
+  const context = canvas.getContext("2d");
+  if (!context) return null;
+
+  const redColor = "#d21b1b";
+  context.fillStyle = redColor;
+  context.fillRect(0, 0, canvas.width, canvas.height);
+
+  const h = canvas.height;
+  const w = canvas.width;
+
+  // Crescent outer circle
+  const r1 = 0.25 * h;
+  const cx1 = 0.22 * w + r1;
+  const cy1 = h / 2;
+
+  context.fillStyle = "#ffffff";
+  context.beginPath();
+  context.arc(cx1, cy1, r1, 0, Math.PI * 2);
+  context.fill();
+
+  // Crescent inner circle (cut out)
+  const r2 = 0.2 * h;
+  const cx2 = cx1 + 0.0625 * h;
+  const cy2 = cy1;
+
+  context.fillStyle = redColor;
+  context.beginPath();
+  context.arc(cx2, cy2, r2, 0, Math.PI * 2);
+  context.fill();
+
+  // Star
+  const sx = cx1 + 0.3333 * h;
+  const sy = h / 2;
+  const starRadius = 0.125 * h;
+
+  context.fillStyle = "#ffffff";
+  context.beginPath();
+  const spikes = 5;
+  let rot = Math.PI;
+  const step = Math.PI / spikes;
+  const outerR = starRadius;
+  const innerR = starRadius * 0.382;
+
+  context.moveTo(sx + Math.cos(rot) * outerR, sy + Math.sin(rot) * outerR);
+  for (let i = 0; i < spikes; i++) {
+    rot += step;
+    context.lineTo(sx + Math.cos(rot) * innerR, sy + Math.sin(rot) * innerR);
+    rot += step;
+    context.lineTo(sx + Math.cos(rot) * outerR, sy + Math.sin(rot) * outerR);
+  }
+  context.closePath();
+  context.fill();
+
+  const texture = new CanvasTexture(canvas);
+  texture.colorSpace = SRGBColorSpace;
+  texture.needsUpdate = true;
+
+  return texture;
+};
+
+const createTurkishFlagPoster = (sourceFrame?: Mesh) => {
+  const poster = new Group();
+  const whiteMatcap = resources.items["matcap-white"];
+  whiteMatcap.colorSpace = LinearSRGBColorSpace;
+  whiteMatcap.generateMipmaps = false;
+
+  const size = sourceFrame ? new Box3().setFromObject(sourceFrame) : null;
+  const faceX = size ? size.max.x + 0.008 : -2.58 + 0.04;
+
+  const center = new Vector3(-2.58, 4.38, -2.88);
+  const width = 0.96;
+  const height = 0.64;
+  const depth = 0.08;
+
+  const frameMaterial = new MeshMatcapMaterial({
+    matcap: whiteMatcap,
+    color: new Color("#1b1c22"),
+  });
+
+  const frame = new Mesh(new BoxGeometry(depth, height + 0.12, width + 0.12), frameMaterial);
+  frame.position.set(faceX - depth * 0.5, center.y, center.z);
+  poster.add(frame);
+
+  const texture = createTurkishFlagTexture();
+  if (texture) {
+    const art = new Mesh(
+      new PlaneGeometry(width, height),
+      new MeshBasicMaterial({
+        map: texture,
+        side: DoubleSide,
+      }),
+    );
+    art.rotation.y = Math.PI / 2;
+    art.position.set(faceX + 0.003, center.y, center.z);
+    poster.add(art);
+  }
+
+  return poster;
+};
+
 const initObjects = () => {
   if (objects) return;
   const resource = resources.items["room-model"];
@@ -299,6 +404,7 @@ const initObjects = () => {
   });
 
   group.add(createSoftBridgeFrame(objects.frame));
+  group.add(createTurkishFlagPoster(objects.frame));
 
   const medal = createMedal();
   medal.position.set(-2.625, 4.1, 2.32);

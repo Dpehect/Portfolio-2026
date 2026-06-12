@@ -1,4 +1,5 @@
 import siteJson from "./site.json";
+import projectsJson from "./projects/projects.json";
 
 import type { Locale } from "../i18n/types";
 
@@ -35,9 +36,13 @@ export type SiteContent = typeof siteJson & {
       about: MusicTrackConfig;
     };
   };
+  projects: typeof projectsJson;
 };
 
-export const siteContent = siteJson as SiteContent;
+export const siteContent = {
+  ...siteJson,
+  projects: projectsJson,
+} as SiteContent;
 
 const assetModules = import.meta.glob<string>("../assets/**/*.{webp,png,jpg,jpeg,gif,svg,mp3,ogg,wav,m4a,mp4,webm}", {
   eager: true,

@@ -5,18 +5,30 @@ import { useEffect, useRef, useState } from "react";
 const BackgroundMusic = () => {
   const audioRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
-  const [isMuted, setIsMuted] = useState(true);
+  const [isMuted, setIsMuted] = useState(false);
 
   useEffect(() => {
-    // Auto-play with muted for browser compatibility
     const audio = audioRef.current;
     if (audio) {
       audio.volume = 0.3;
-      audio.muted = true;
+      audio.muted = false;
+      audio.loop = true; // Programmatic loop
+      
+      const handleEnded = () => {
+        audio.currentTime = 0;
+        audio.play().catch(() => {});
+      };
+      
+      audio.addEventListener("ended", handleEnded);
+      
       audio.play().catch(() => {
-        // Fallback if autoplay fails
+        // Fallback if autoplay fails due to browser policies
       });
       setIsPlaying(true);
+      
+      return () => {
+        audio.removeEventListener("ended", handleEnded);
+      };
     }
   }, []);
 
@@ -31,10 +43,9 @@ const BackgroundMusic = () => {
     <>
       <audio
         ref={audioRef}
-        src="/Ati242 - Her Nerdeysen (Instrumental).mp3"
+        src="/ati242.mp3"
         loop
         autoPlay
-        muted
         style={{ display: "none" }}
       />
       <button

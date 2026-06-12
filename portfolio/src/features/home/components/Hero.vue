@@ -12,7 +12,8 @@ import { t } from "../../../i18n/utils/translate";
         <div class="hero-content-copys">
           <h1 class="hero-title">
             <template v-for="(line, index) in siteContent.profile.heroNameLines" :key="line">
-              {{ line }}<br v-if="index < siteContent.profile.heroNameLines.length - 1" />
+              <span class="hero-title-line">{{ line }}</span>
+              <br v-if="index < siteContent.profile.heroNameLines.length - 1" />
             </template>
           </h1>
           <Banner class="hero-banner" :copy="t('job-title')" v-if="!preloaderVisible" animated />
@@ -85,21 +86,43 @@ import { t } from "../../../i18n/utils/translate";
   }
 
   &-title {
+    color: var(--color-orange-400);
+    font-family: "Cooper Black", "Arial Black", Impact, "Urbanist", sans-serif;
     font-weight: 900;
-    letter-spacing: 0.02em;
-    font-size: var(--font-size-title-lg);
+    letter-spacing: 0.025em;
+    font-size: var(--font-size-title-xs);
+    line-height: 0.92;
+    paint-order: stroke fill;
+    text-shadow:
+      0.035em 0.045em 0 var(--color-white-400),
+      0.075em 0.085em 0 rgba(45, 42, 36, 0.22);
+    text-transform: uppercase;
+    -webkit-text-stroke: clamp(1px, 0.022em, 2px) var(--color-text-400);
+
+    &-line {
+      display: inline-block;
+      transform: rotate(-1.5deg);
+
+      &:nth-of-type(2) {
+        transform: translateX(0.08em) rotate(1.25deg);
+      }
+    }
+
+    @include mixins.mq("sm") {
+      font-size: var(--font-size-title-sm);
+    }
 
     @include mixins.landscape {
-      font-size: var(--font-size-title-lg);
+      font-size: var(--font-size-title-sm);
     }
 
     @include mixins.landscape-large {
       @include mixins.mq("sm") {
-        font-size: var(--font-size-title-xl);
+        font-size: var(--font-size-title-md);
       }
 
       @include mixins.mq("xl") {
-        font-size: var(--font-size-title-xxl);
+        font-size: var(--font-size-title-lg);
       }
     }
   }

@@ -1,0 +1,812 @@
+[
+  {
+    "slug": "suppstore",
+    "thumbnail": "thumbnails/suppstore.png",
+    "color": "from-red-300 to-amber-300",
+    "img": "/thumbnails/suppstore.png",
+    "content": {
+      "en": {
+        "title": "SoftBridge Supplements",
+        "previewDescription": "Comic-book style storefront with custom GLSL shaders and particle physics preloader.",
+        "theme": "light",
+        "tags": [
+          "next",
+          "react",
+          "three",
+          "glsl",
+          "javascript"
+        ],
+        "videoBorder": false,
+        "live": "https://supplement-store-alpha.vercel.app/",
+        "description": "SoftBridge Supplements is a highly performant, fully interactive premium supplement storefront designed with a comic-book aesthetic. Built on Next.js 15 and React 19, it utilizes GSAP ScrollTrigger for dynamic page transitions and dynamic scroll-responsive background color interpolation. Product cards display custom WebGL and GLSL fragment shaders for a fluid ripple effect. The entry features a physics-based particle preloader representing supplement powder.",
+        "components": [
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/suppstore/walkthrough.webp",
+              "alt": "SoftBridge Supplements site walkthrough video",
+              "caption": "Site Walkthrough Video"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/suppstore/supps1.png",
+              "alt": "Comic-book style main storefront hero screen",
+              "caption": "Comic-book style main storefront hero screen"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/suppstore/supps2.png",
+              "alt": "Product listing and powder particle preloader",
+              "caption": "Product listing and powder particle preloader"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/suppstore/supps3.png",
+              "alt": "Product options, specifications, and details panel",
+              "caption": "Product options, specifications, and details panel"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/suppstore/supps4.png",
+              "alt": "Fully responsive web layout, testimonials, and dynamic background scroll interpolation",
+              "caption": "Fully responsive web layout, testimonials, and dynamic background scroll interpolation"
+            }
+          }
+        ]
+      },
+      "tr": {
+        "title": "SoftBridge Supplements",
+        "previewDescription": "Çizgi roman estetiği, özel GLSL shader'ları ve fizik tabanlı parçacık açılışı olan supplement mağazası.",
+        "theme": "light",
+        "tags": [
+          "next",
+          "react",
+          "three",
+          "glsl",
+          "javascript"
+        ],
+        "videoBorder": false,
+        "live": "https://supplement-store-alpha.vercel.app/",
+        "description": "SoftBridge Supplements, çizgi roman hissini teknik olarak güçlü bir alışveriş deneyimiyle birleştiren interaktif bir supplement mağazası. Next.js 15 ve React 19 üzerine kuruldu; sayfa geçişleri, scroll'a bağlı hareketler ve arka plan renk geçişleri GSAP ScrollTrigger ile yönetiliyor. Ürün kartlarında akışkan ripple efekti için özel WebGL ve GLSL fragment shader'ları kullanılıyor. Giriş ekranındaki parçacık yapısı da supplement tozu hareketini fizik tabanlı bir animasyonla temsil ediyor.",
+        "components": [
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/suppstore/walkthrough.webp",
+              "alt": "SoftBridge Supplements site gezinim videosu",
+              "caption": "Site Gezinim Videosu"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/suppstore/supps1.png",
+              "alt": "Çizgi roman tarzında ana mağaza ekranı",
+              "caption": "Çizgi roman tarzında ana mağaza ekranı"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/suppstore/supps2.png",
+              "alt": "Ürün listesi ve toz parçacık preloader animasyonu",
+              "caption": "Ürün listesi ve toz parçacık preloader animasyonu"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/suppstore/supps3.png",
+              "alt": "Ürün seçenekleri, teknik bilgiler ve detay paneli",
+              "caption": "Ürün seçenekleri, teknik bilgiler ve detay paneli"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/suppstore/supps4.png",
+              "alt": "Responsive yerleşim, yorum alanları ve scroll ile değişen arka plan",
+              "caption": "Responsive yerleşim, yorum alanları ve scroll ile değişen arka plan"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "fourteenislands",
+    "thumbnail": "thumbnails/fourteenislands.png",
+    "color": "from-sky-300 to-indigo-300",
+    "img": "/thumbnails/fourteenislands.png",
+    "content": {
+      "en": {
+        "title": "14islands",
+        "previewDescription": "Creative design & technology agency platform with React 19 frontend and cloud-native microservices.",
+        "theme": "light",
+        "tags": [
+          "react",
+          "three",
+          "gsap",
+          "node",
+          "docker",
+          "kubernetes"
+        ],
+        "videoBorder": false,
+        "live": "https://www.14islands.com/",
+        "source": "https://github.com/Dpehect/14islands",
+        "description": "14islands is a technical implementation developed for the creative digital platform. The presentation layer features React 19, Vite, and Redux Toolkit for state management, with fluid animations driven by GSAP scroll-triggered timelines and Framer Motion. Smooth scrolling is optimized via Lenis, and GPUs handle rendering for interactive spatial elements using React Three Fiber. The backend relies on a cloud-native Node.js microservice architecture with CosmosDB, FastAPI logic, Docker, and AKS Kubernetes clusters.",
+        "components": [
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/fourteenislands/walkthrough.webp",
+              "alt": "14islands site walkthrough video",
+              "caption": "Site Walkthrough Video"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/fourteenislands/fourteenislands1.png",
+              "alt": "14islands home page creative hero layout",
+              "caption": "14islands home page creative hero layout"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/fourteenislands/fourteenislands2.png",
+              "alt": "Dynamic design & technology works grid",
+              "caption": "Dynamic design & technology works grid"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/fourteenislands/fourteenislands3.png",
+              "alt": "Creative spatial design concepts and animations",
+              "caption": "Creative spatial design concepts and animations"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/fourteenislands/fourteenislands4.png",
+              "alt": "Company information, contacts, and responsive navigation footer",
+              "caption": "Company information, contacts, and responsive navigation footer"
+            }
+          }
+        ]
+      },
+      "tr": {
+        "title": "14islands",
+        "previewDescription": "React 19 arayüzü ve cloud-native mikroservislerle geliştirilen yaratıcı tasarım ve teknoloji ajansı platformu.",
+        "theme": "light",
+        "tags": [
+          "react",
+          "three",
+          "gsap",
+          "node",
+          "docker",
+          "kubernetes"
+        ],
+        "videoBorder": false,
+        "live": "https://www.14islands.com/",
+        "source": "https://github.com/Dpehect/14islands",
+        "description": "14islands, yaratıcı dijital platform dili için hazırlanmış teknik bir uygulama çalışması. Arayüz tarafında React 19, Vite ve Redux Toolkit kullanılıyor; akıcı geçişler GSAP'in scroll tetiklemeli timeline yapıları ve Framer Motion ile destekleniyor. Lenis ile smooth scroll davranışı iyileştirildi, React Three Fiber ise sahnedeki etkileşimli üç boyutlu öğelerin GPU üzerinde akıcı render edilmesini sağlıyor. Backend tarafında Node.js mikroservisleri, CosmosDB, FastAPI iş katmanı, Docker ve AKS Kubernetes kümeleriyle cloud-native bir yapı kullanıldı.",
+        "components": [
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/fourteenislands/walkthrough.webp",
+              "alt": "14islands site gezinim videosu",
+              "caption": "Site Gezinim Videosu"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/fourteenislands/fourteenislands1.png",
+              "alt": "14islands ana sayfa yaratıcı hero düzeni",
+              "caption": "14islands ana sayfa yaratıcı hero düzeni"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/fourteenislands/fourteenislands2.png",
+              "alt": "Dinamik tasarım ve teknoloji işleri grid'i",
+              "caption": "Dinamik tasarım ve teknoloji işleri grid'i"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/fourteenislands/fourteenislands3.png",
+              "alt": "Mekansal tasarım fikirleri ve yaratıcı animasyonlar",
+              "caption": "Mekansal tasarım fikirleri ve yaratıcı animasyonlar"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/fourteenislands/fourteenislands4.png",
+              "alt": "Şirket bilgileri, iletişim alanları ve responsive footer",
+              "caption": "Şirket bilgileri, iletişim alanları ve responsive footer"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "locanto",
+    "thumbnail": "thumbnails/locanto.png",
+    "color": "from-orange-300 to-red-300",
+    "img": "/thumbnails/locanto.png",
+    "content": {
+      "en": {
+        "title": "Locanto Services",
+        "previewDescription": "Classifieds services marketplace built with Next.js, React, TypeScript, and Docker/Kubernetes container orchestration.",
+        "theme": "light",
+        "tags": [
+          "next",
+          "react",
+          "typescript",
+          "tailwind",
+          "docker",
+          "kubernetes"
+        ],
+        "videoBorder": false,
+        "live": "https://www.locanto.com/g/Services/S/1/",
+        "source": "https://github.com/Dpehect/Locanto-Website",
+        "description": "Locanto Services is a production-style full-stack local classifieds platform focused on service provider listings. The frontend is built on React 19, TypeScript, and Next.js App Router, with Scoped CSS/Tailwind for responsive listing grids. Node.js Next Route Handlers manage dynamic listings retrieval, multi-category searches, location sorting, and user-published service ads. Containerized and orchestrated using multi-stage Dockerfiles and Kubernetes manifests specifying deployments, Horizontal Pod Autoscaling (HPA), Secrets, and ConfigMaps.",
+        "components": [
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/locanto/walkthrough.webp",
+              "alt": "Locanto Services site walkthrough video",
+              "caption": "Site Walkthrough Video"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/locanto/locanto1.png",
+              "alt": "Locanto Services browse directory and categorised listings grid",
+              "caption": "Locanto Services browse directory and categorised listings grid"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/locanto/locanto2.png",
+              "alt": "Publish new listing details and interactive ad posting form",
+              "caption": "Publish new listing details and interactive ad posting form"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/locanto/locanto3.png",
+              "alt": "Saved services watchlist dashboard and provider interaction panel",
+              "caption": "Saved services watchlist dashboard and provider interaction panel"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/locanto/locanto4.png",
+              "alt": "Classified service details and user interaction review scores",
+              "caption": "Classified service details and user interaction review scores"
+            }
+          }
+        ]
+      },
+      "tr": {
+        "title": "Locanto Services",
+        "previewDescription": "Next.js, React, TypeScript ve Docker/Kubernetes orkestrasyonuyla geliştirilen yerel hizmet ilanları platformu.",
+        "theme": "light",
+        "tags": [
+          "next",
+          "react",
+          "typescript",
+          "tailwind",
+          "docker",
+          "kubernetes"
+        ],
+        "videoBorder": false,
+        "live": "https://www.locanto.com/g/Services/S/1/",
+        "source": "https://github.com/Dpehect/Locanto-Website",
+        "description": "Locanto Services, yerel hizmet sağlayıcı ilanlarına odaklanan production tarzı bir full-stack ilan platformu. Arayüz React 19, TypeScript ve Next.js App Router ile kuruldu; responsive ilan grid'leri için Scoped CSS ve Tailwind kullanıldı. Node.js Next Route Handler'ları dinamik ilan çekme, çok kategorili arama, konuma göre sıralama ve kullanıcıların yayınladığı hizmet ilanlarını yönetiyor. Uygulama çok aşamalı Dockerfile'lar ve deployment, HPA, Secret ve ConfigMap tanımları içeren Kubernetes manifestleriyle container ortamına hazırlandı.",
+        "components": [
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/locanto/walkthrough.webp",
+              "alt": "Locanto Services site gezinim videosu",
+              "caption": "Site Gezinim Videosu"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/locanto/locanto1.png",
+              "alt": "Locanto Services kategori gezintisi ve ilan grid'i",
+              "caption": "Kategori gezintisi ve ilan grid'i"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/locanto/locanto2.png",
+              "alt": "Yeni ilan yayınlama detayları ve etkileşimli form",
+              "caption": "Yeni ilan yayınlama formu"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/locanto/locanto3.png",
+              "alt": "Kaydedilen hizmetler, takip listesi ve sağlayıcı paneli",
+              "caption": "Kaydedilen hizmetler ve sağlayıcı paneli"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/locanto/locanto4.png",
+              "alt": "Hizmet ilanı detayları, kullanıcı etkileşimleri ve değerlendirme puanları",
+              "caption": "Hizmet detayları ve değerlendirme alanı"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "aubergeduvillage",
+    "thumbnail": "thumbnails/aubergeduvillage.png",
+    "color": "from-yellow-300 to-amber-400",
+    "img": "/thumbnails/aubergeduvillage.png",
+    "content": {
+      "en": {
+        "title": "L'Auberge du Village",
+        "previewDescription": "French gourmet restaurant platform built on React, TypeScript, Redux Toolkit, and Framer Motion layouts.",
+        "theme": "light",
+        "tags": [
+          "react",
+          "typescript",
+          "redux",
+          "vite",
+          "node"
+        ],
+        "videoBorder": false,
+        "live": "https://www.auberge-du-village.fr/",
+        "source": "https://github.com/Dpehect/Auberge-du-Village-Restaurant-Website",
+        "description": "L'Auberge du Village is a premium gourmand restaurant website designed to bridge hospitality with digital details. Engineered as a data-driven client app using React 18, TypeScript, and Vite, it integrates Redux Toolkit (RTK) for unified state containerization, async data actions, and responsive layout staggers. Rich menu parser modules process backend JSON payloads to render complex nested menus (Menus vs. À La Carte), while Framer Motion drives animations and scroll-linked reveals.",
+        "components": [
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/aubergeduvillage/walkthrough.webp",
+              "alt": "L'Auberge du Village site walkthrough video",
+              "caption": "Site Walkthrough Video"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/aubergeduvillage/restaurant1.png",
+              "alt": "L'Auberge du Village landing page restaurant hero layout",
+              "caption": "L'Auberge du Village landing page restaurant hero layout"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/aubergeduvillage/restaurant2.png",
+              "alt": "Dynamic menus and gourmet cuisine listings",
+              "caption": "Dynamic menus and gourmet cuisine listings"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/aubergeduvillage/restaurant3.png",
+              "alt": "Restaurant table reservations booking section",
+              "caption": "Restaurant table reservations booking section"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/aubergeduvillage/restaurant4.png",
+              "alt": "Location map, contact hours, and layout footer",
+              "caption": "Location map, contact hours, and layout footer"
+            }
+          }
+        ]
+      },
+      "tr": {
+        "title": "L'Auberge du Village",
+        "previewDescription": "React, TypeScript, Redux Toolkit ve Framer Motion ile geliştirilen Fransız restoran deneyimi.",
+        "theme": "light",
+        "tags": [
+          "react",
+          "typescript",
+          "redux",
+          "vite",
+          "node"
+        ],
+        "videoBorder": false,
+        "live": "https://www.auberge-du-village.fr/",
+        "source": "https://github.com/Dpehect/Auberge-du-Village-Restaurant-Website",
+        "description": "L'Auberge du Village, restoranın atmosferini dijitalde daha rafine ve kullanışlı bir deneyime dönüştüren premium bir web sitesi. React 18, TypeScript ve Vite ile veri odaklı bir client app olarak geliştirildi. Redux Toolkit, ortak state yönetimi, asenkron veri aksiyonları ve responsive yerleşim geçişleri için kullanıldı. Menü parser modülleri backend'den gelen JSON verisini işleyerek iç içe geçmiş menü yapılarını ve à la carte seçeneklerini düzenli biçimde gösteriyor; Framer Motion ise scroll'a bağlı geçişleri ve sayfa içi animasyonları yönetiyor.",
+        "components": [
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/aubergeduvillage/walkthrough.webp",
+              "alt": "L'Auberge du Village site gezinim videosu",
+              "caption": "Site Gezinim Videosu"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/aubergeduvillage/restaurant1.png",
+              "alt": "L'Auberge du Village restoran ana sayfa hero düzeni",
+              "caption": "Restoran ana sayfa hero düzeni"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/aubergeduvillage/restaurant2.png",
+              "alt": "Dinamik menüler ve mutfak içerikleri",
+              "caption": "Dinamik menüler ve mutfak içerikleri"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/aubergeduvillage/restaurant3.png",
+              "alt": "Masa rezervasyonu ve booking bölümü",
+              "caption": "Masa rezervasyonu bölümü"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/aubergeduvillage/restaurant4.png",
+              "alt": "Konum haritası, iletişim saatleri ve footer düzeni",
+              "caption": "Konum, iletişim saatleri ve footer"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "masonsaupair",
+    "thumbnail": "thumbnails/masonsaupair.png",
+    "color": "from-indigo-300 to-purple-300",
+    "img": "/thumbnails/masonsaupair.png",
+    "content": {
+      "en": {
+        "title": "Masons Au Pair",
+        "previewDescription": "Decoupled web ecosystem modernizing client workflows with Laravel RESTful APIs, Nuxt 3 (SSR), and MQTT IoT integration.",
+        "theme": "light",
+        "tags": [
+          "nuxt",
+          "laravel",
+          "typescript",
+          "python",
+          "aws",
+          "iot"
+        ],
+        "videoBorder": false,
+        "live": "https://masons-aupair.com/",
+        "source": "https://github.com/Dpehect/Masons-Au-Pair-Digital-Ecosystem-Modernization",
+        "description": "Masons Au Pair is a modernized, high-availability web ecosystem replacing legacy systems with a headless architecture. The backend is powered by Laravel 11 as a stateless RESTful API handling 10-step matching logic, while the frontend is constructed on Nuxt 3 (SSR) and Pinia for optimal load speed and organic indexing. Features MQTT over TLS/SSL to bridge physical IoT hardware events with Laravel events, and includes self-healing watchdog monitor suites in Python deployed via Terraform onto AWS ECS Fargate.",
+        "components": [
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/masonsaupair/walkthrough.webp",
+              "alt": "Masons Au Pair site walkthrough video",
+              "caption": "Site Walkthrough Video"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/masonsaupair/masons1.png",
+              "alt": "Masons Au Pair landing page executive summary banner",
+              "caption": "Masons Au Pair landing page executive summary banner"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/masonsaupair/masons2.png",
+              "alt": "Headless microservice architecture stages and match workflow",
+              "caption": "Headless microservice architecture stages and match workflow"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/masonsaupair/masons3.png",
+              "alt": "Client registration portal and secure matching forms",
+              "caption": "Client registration portal and secure matching forms"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/masonsaupair/masons4.png",
+              "alt": "Contact details and responsive application footer",
+              "caption": "Contact details and responsive application footer"
+            }
+          }
+        ]
+      },
+      "tr": {
+        "title": "Masons Au Pair",
+        "previewDescription": "Laravel REST API'leri, Nuxt 3 SSR ve MQTT IoT entegrasyonuyla yenilenen ayrık web ekosistemi.",
+        "theme": "light",
+        "tags": [
+          "nuxt",
+          "laravel",
+          "typescript",
+          "python",
+          "aws",
+          "iot"
+        ],
+        "videoBorder": false,
+        "live": "https://masons-aupair.com/",
+        "source": "https://github.com/Dpehect/Masons-Au-Pair-Digital-Ecosystem-Modernization",
+        "description": "Masons Au Pair, eski sistemleri headless mimariye taşıyan, yüksek erişilebilirlik hedefiyle yenilenmiş bir web ekosistemi. Backend tarafında Laravel 11 stateless REST API olarak çalışıyor ve 10 adımlı eşleştirme akışını yönetiyor. Frontend ise hızlı yükleme ve organik indeksleme için Nuxt 3 SSR ve Pinia üzerine kuruldu. Fiziksel IoT donanım olaylarını Laravel event'lerine bağlamak için TLS/SSL üzerinden MQTT kullanıldı. Ayrıca Python ile yazılmış self-healing watchdog izleme paketleri Terraform üzerinden AWS ECS Fargate'e dağıtıldı.",
+        "components": [
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/masonsaupair/walkthrough.webp",
+              "alt": "Masons Au Pair site gezinim videosu",
+              "caption": "Site Gezinim Videosu"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/masonsaupair/masons1.png",
+              "alt": "Masons Au Pair açılış sayfası özet banner alanı",
+              "caption": "Açılış sayfası özet banner alanı"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/masonsaupair/masons2.png",
+              "alt": "Headless mikroservis mimarisi ve eşleştirme akışı",
+              "caption": "Headless mimari ve eşleştirme akışı"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/masonsaupair/masons3.png",
+              "alt": "Müşteri kayıt portalı ve güvenli eşleştirme formları",
+              "caption": "Kayıt portalı ve eşleştirme formları"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/masonsaupair/masons4.png",
+              "alt": "İletişim bilgileri ve responsive başvuru footer'ı",
+              "caption": "İletişim bilgileri ve responsive footer"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "planetafirst",
+    "thumbnail": "thumbnails/planetafirst.png",
+    "color": "from-teal-300 to-emerald-300",
+    "img": "/thumbnails/planetafirst.png",
+    "content": {
+      "en": {
+        "title": "Planeta First",
+        "previewDescription": "Responsible travel microservices app built on Next.js 15, React 19, Django REST, and Elasticsearch.",
+        "theme": "light",
+        "tags": [
+          "next",
+          "django",
+          "react",
+          "elasticsearch",
+          "docker",
+          "kubernetes"
+        ],
+        "videoBorder": false,
+        "live": "https://freepackers.com/fr/planeta-first/",
+        "source": "https://github.com/Dpehect/Planeta-First-Web-Application.git",
+        "description": "Planeta First is a high-performance tourism and responsible travel platform. Built as a distributed microservice system, it features Next.js 15 (App Router), React 19, and Material UI (MUI v9) glassmorphic layouts, with TanStack Query and Redux Toolkit state architectures. Django handles the backend with PostgreSQL JSONB metadata, Celery + RabbitMQ task queues, and Elasticsearch 8 for full-text search. The platform is fully containerized with Docker and orchestrated using Kubernetes manifests with HPA auto-scaling.",
+        "components": [
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/planetafirst/walkthrough.webp",
+              "alt": "Planeta First site walkthrough video",
+              "caption": "Site Walkthrough Video"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/planetafirst/planeta1.png",
+              "alt": "Planeta First responsible travel landing hero layout",
+              "caption": "Planeta First responsible travel landing hero layout"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/planetafirst/planeta2.png",
+              "alt": "Sustainable volunteer projects grid and search search",
+              "caption": "Sustainable volunteer projects grid and search search"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/planetafirst/planeta3.png",
+              "alt": "User volunteer bookings and checkouts dashboard panel",
+              "caption": "User volunteer bookings and checkouts dashboard panel"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/planetafirst/planeta4.png",
+              "alt": "Traveler user profile details and impact badges checklist",
+              "caption": "Traveler user profile details and impact badges checklist"
+            }
+          }
+        ]
+      },
+      "tr": {
+        "title": "Planeta First",
+        "previewDescription": "Next.js 15, React 19, Django REST ve Elasticsearch ile geliştirilen sorumlu seyahat mikroservis uygulaması.",
+        "theme": "light",
+        "tags": [
+          "next",
+          "django",
+          "react",
+          "elasticsearch",
+          "docker",
+          "kubernetes"
+        ],
+        "videoBorder": false,
+        "live": "https://freepackers.com/fr/planeta-first/",
+        "source": "https://github.com/Dpehect/Planeta-First-Web-Application.git",
+        "description": "Planeta First, sorumlu seyahat ve gönüllülük projeleri için hazırlanmış yüksek performanslı bir turizm platformu. Dağıtık mikroservis mimarisiyle geliştirildi; arayüzde Next.js 15 App Router, React 19 ve Material UI ile glassmorphism ağırlıklı bir tasarım dili kullanıldı. TanStack Query ve Redux Toolkit veri akışını yönetirken, Django backend tarafında PostgreSQL JSONB metadata, Celery + RabbitMQ görev kuyrukları ve Elasticsearch 8 ile tam metin arama sağlıyor. Uygulama Docker ile containerize edildi ve HPA auto-scaling tanımları bulunan Kubernetes manifestleriyle orkestre edildi.",
+        "components": [
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/planetafirst/walkthrough.webp",
+              "alt": "Planeta First site gezinim videosu",
+              "caption": "Site Gezinim Videosu"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/planetafirst/planeta1.png",
+              "alt": "Planeta First sorumlu seyahat ana sayfa hero düzeni",
+              "caption": "Sorumlu seyahat ana sayfa hero düzeni"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/planetafirst/planeta2.png",
+              "alt": "Sürdürülebilir gönüllülük projeleri grid'i ve arama alanı",
+              "caption": "Gönüllülük projeleri grid'i ve arama"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/planetafirst/planeta3.png",
+              "alt": "Gönüllü rezervasyonları ve checkout dashboard paneli",
+              "caption": "Rezervasyonlar ve checkout paneli"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/planetafirst/planeta4.png",
+              "alt": "Gezgin profil detayları ve etki rozetleri listesi",
+              "caption": "Gezgin profili ve etki rozetleri"
+            }
+          }
+        ]
+      }
+    }
+  }
+]

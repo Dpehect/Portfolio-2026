@@ -85,7 +85,7 @@ onUnmounted(() => {
     data-cursor="arrow-external"
     data-hoversound="hover"
     external
-    :href="social[0].url"
+    :href="social[0]?.url || '#'"
   >
     <div class="preview-card-top preview-card-top-empty">
       <Plus class="preview-card-top-empty-icon" />

@@ -1,4 +1,5 @@
 import { tagLabels, type TagVariant } from "../../components/tagVariants";
+import { LOCALES } from "../../i18n/constants";
 import { resolveSiteAsset, siteContent } from "../site";
 
 import type { Locale } from "../../i18n/types";
@@ -20,7 +21,7 @@ type ProjectJsonEntry = {
   } & Partial<Record<Locale, ProjectJsonContent>>;
 };
 
-const locales = ["de", "en"] as const satisfies Locale[];
+const locales = Object.keys(LOCALES) as Locale[];
 const projectEntries = siteContent.projects as ProjectJsonEntry[];
 
 const resolveComponentAssets = (component: ProjectComponent): ProjectComponent => {

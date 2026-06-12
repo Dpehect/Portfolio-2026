@@ -1,44 +1,68 @@
-# Portfolio (2025)
+# Yunus Emre Gürlek - 3D Interactive Web Portfolio
 
-Personal portfolio site: project case studies, lightweight 3D and shader demos, bilingual copy (English and German).
+Live Preview: [https://portfolio-2026-plum-pi.vercel.app/](https://portfolio-2026-plum-pi.vercel.app/)
 
-Built with **Vue 3**, **TypeScript**, and **Vite**. Motion via **GSAP** and **Lenis**, 3D via **three.js**, audio via **Howler**. GLSL is compiled through **vite-plugin-glsl**.
+## Overview
 
-## Scripts
+This repository contains the source code for the personal 3D interactive portfolio of Yunus Emre Gürlek. The project provides a highly immersive WebGL experience designed to showcase projects, skills, and professional background. It leverages modern web technologies to deliver a high-performance, real-time 3D environment directly in the browser without relying on external plugins.
 
-| Command        | Description                          |
-| -------------- | ------------------------------------ |
-| `npm run dev`   | Dev server on port **3000** (`strictPort`) |
-| `npm run build` | `vue-tsc` then production bundle to `dist/` |
-| `npm run preview` | Serve the production build locally |
-| `npm run typecheck` | Typecheck only (`vue-tsc -b`) |
+## Technical Architecture
 
-## Content
+The application is built on a modern, reactive frontend stack utilizing Vue 3's Composition API for UI state management, seamlessly integrated with Three.js for 3D rendering.
 
-- **Site data**: edit `src/content/site.json`. Profile text, social links, footer credits, music tracks, home boxes, translations, and projects are all configured there.
-- **Project media / music**: JSON paths like `thumbnails/example.webp`, `images/projects/example/screen-0.webp`, or `music/example.ogg` resolve from `src/assets/`. Paths starting with `/` resolve from `public/`, so `/music/example.ogg` works too.
-- **Localized copy**: `translations.en.common` is the fallback for English UI copy. You can edit `translations.de.common` for German text.
-- **Tags**: built-in tag labels live in `src/components/tagVariants.ts`. Custom tag text in `site.json` still renders with the neutral tag style.
+### Core Technologies
 
-## Stack (high level)
+*   **Framework**: Vue 3 (Composition API, `<script setup>`)
+*   **Build Tool**: Vite (Optimized production builds and rapid HMR)
+*   **Language**: TypeScript (Strict typing for robust state management and Three.js interactions)
+*   **3D Graphics**: Three.js (WebGL rendering, custom shaders, and 3D object management)
+*   **Animations**: GSAP (GreenSock Animation Platform for complex timeline sequencing, camera pathing, and UI transitions)
+*   **Scrolling**: Lenis (Smooth scrolling implementation mapped to WebGL camera waypoints)
+*   **Audio**: Howler.js (Spatial and interactive UI sound effects)
+*   **Styling**: SCSS (Component-scoped styles, CSS variables, and responsive mixins)
+*   **Shaders**: GLSL (Compiled via `vite-plugin-glsl` for custom material effects)
 
-- Vue 3 (`<script setup>`), SCSS with shared mixins (`src/assets/styles/`)
-- i18n helpers under `src/i18n/`
-- WebGL / GLSL under `src/three/` where applicable
+### Performance Optimization
 
-## Credits & Attribution
+Several techniques are employed to ensure a smooth 60fps experience across devices:
 
-This project was created and designed by David Heckhoff.
+*   **Geometry and Material Management**: Reducing draw calls in the Three.js scene by reusing Matcap materials and optimizing geometry complexity.
+*   **Texture Optimization**: Utilizing WebP formats and optimized textures to minimize VRAM usage and initial load times.
+*   **Viewport Scaling**: Dynamic `devicePixelRatio` capping and `ResizeObserver` implementations to maintain rendering performance on high-density mobile displays.
+*   **Asynchronous Loading**: Heavy 3D assets and textures are loaded asynchronously. The application utilizes a custom preloader to mask the initial asset parsing phase.
+*   **Lifecycle Management**: Strict setup and teardown phases for event listeners, GSAP tickers, and IntersectionObservers to prevent memory leaks during component unmounting.
 
-If you use this project or substantial parts of its source code as a base for your own portfolio or work, attribution must be preserved.
+### Project Structure
 
-Please keep:
+*   `src/three/`: Contains the core WebGL engine logic.
+    *   `core/`: Camera setup, scene initialization, and WebGLRenderer configuration.
+    *   `objects/`: Individual 3D meshes, groups, and interaction logic (e.g., room, character, interactive screens).
+    *   `shaders/`: Custom vertex and fragment shaders written in GLSL.
+*   `src/animations/`: GSAP timeline configurations and camera waypoint data mapped to scroll positions.
+*   `src/components/`: Reusable Vue 3 UI components (Header, Buttons, Overlays).
+*   `src/features/`: Domain-specific components (Home sections, Project modals).
+*   `src/i18n/`: Internationalization setup with dynamic locale switching.
+*   `src/utils/`: Global event emitters, raycasting logic, and responsive size observers.
 
-- existing credit comments in the source code
-- this attribution section in the README
-- a visible reference to the original project/repository in derivative works
+## Local Development
 
-Original portfolio:
--> https://david-hckh.com
+To run this project locally, ensure you have Node.js installed.
 
-Commercial reuse or redistribution of substantial portions of this project without permission is prohibited.
+1.  Install dependencies:
+    ```bash
+    npm install
+    ```
+2.  Start the Vite development server:
+    ```bash
+    npm run dev
+    ```
+3.  Build for production:
+    ```bash
+    npm run build
+    ```
+
+## Copyright and License
+
+This project, its design, source code, and all associated 3D/2D assets are the sole property of Yunus Emre Gürlek. All rights reserved.
+
+Unauthorized copying, modification, distribution, reproduction, or commercial use of this repository or any of its contents is strictly prohibited. The intellectual property rights belong entirely to Yunus Emre Gürlek.

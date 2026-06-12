@@ -222,11 +222,11 @@ const setupSectionsAnimation = ({
     tl.to(completed, { value: true, duration: 0 }, 1);
 
     if (isLandscape) {
-      // Equal spacing between four animations, finishing earlier to stay visible longer
+      // Equal spacing between four animations: 0, 0.3, 0.6, 0.8
       const DETAILS_DELAY = 0;
-      const DESCRIPTION_DELAY = 0.18;
-      const SERVICES_DELAY = 0.36;
-      const LANGUAGES_DELAY = 0.54;
+      const DESCRIPTION_DELAY = 0.3;
+      const SERVICES_DELAY = 0.6;
+      const LANGUAGES_DELAY = 0.8;
 
       // Details animation (first, only on landscape)
       tl.fromTo(contentDetails, { opacity: 0 }, { opacity: 1, duration: 0.15, ease: "power1.out" }, DETAILS_DELAY);
@@ -262,8 +262,8 @@ const setupSectionsAnimation = ({
     } else {
       // Mobile: description, services, and languages (details hidden on portrait)
       const DESCRIPTION_DELAY = 0;
-      const SERVICES_DELAY = 0.35;
-      const LANGUAGES_DELAY = 0.7;
+      const SERVICES_DELAY = 0.45;
+      const LANGUAGES_DELAY = 0.8;
 
       // Details animation disabled - BoxDetails is hidden on portrait
 

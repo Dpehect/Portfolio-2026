@@ -14,7 +14,6 @@ html {
   font-family: "Urbanist";
   letter-spacing: 0.02em;
   overflow-y: scroll !important;
-  overflow-x: hidden;
 
   --vh: 1vh;
   --dvh: 1vh;
@@ -33,10 +32,6 @@ html {
   --dvw: 1dvw;
   --svw: 1svw;
   --lvw: 1lvw;
-}
-
-body {
-  overflow-x: hidden;
 }
 
 .is-loading {

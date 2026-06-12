@@ -44,22 +44,6 @@ Several techniques are employed to ensure a smooth 60fps experience across devic
 *   `src/i18n/`: Internationalization setup with dynamic locale switching.
 *   `src/utils/`: Global event emitters, raycasting logic, and responsive size observers.
 
-## Local Development
-
-To run this project locally, ensure you have Node.js installed.
-
-1.  Install dependencies:
-    ```bash
-    npm install
-    ```
-2.  Start the Vite development server:
-    ```bash
-    npm run dev
-    ```
-3.  Build for production:
-    ```bash
-    npm run build
-    ```
 
 ## Copyright and License
 

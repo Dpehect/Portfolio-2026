@@ -110,8 +110,8 @@ const handleProjectsLoaded = () => {
 
 watchEffect((onInvalidate) => {
   if (
-    projectsLoaded.value &&
-    threeInitialized.value &&
+    projectsLoaded &&
+    threeInitialized &&
     //(projectId.value === null || isTransitioning.value) &&
     !preloaderVisible.value
   ) {
@@ -224,8 +224,8 @@ watch(
 }
 
 .about-spacer {
-  max-height: calc(var(--lvh) * 400);
-  min-height: calc(var(--lvh) * 400);
+  max-height: calc(var(--lvh) * 250);
+  min-height: calc(var(--lvh) * 250);
 }
 
 .intro-wrapper {

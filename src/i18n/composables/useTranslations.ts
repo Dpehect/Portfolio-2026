@@ -10,13 +10,7 @@ export const useTranslations = () => {
   onMounted(() => {
     locale.value = window.localStorage.getItem("portfolio-locale") as Locale;
     if (!locale.value) {
-      const preferredLocale = navigator.language.split("-")[0] as Locale;
-
-      if (preferredLocale in LOCALES) {
-        locale.value = preferredLocale;
-      } else {
-        locale.value = "en";
-      }
+      locale.value = "en";
     }
   });
 

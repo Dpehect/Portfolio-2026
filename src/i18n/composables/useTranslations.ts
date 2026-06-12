@@ -2,7 +2,6 @@ import { watch } from "vue";
 import { loadTranslations } from "../utils/load";
 import { locale, translations } from "../store";
 import { onMounted } from "vue";
-import { LOCALES } from "../constants";
 
 import type { Locale } from "../types";
 

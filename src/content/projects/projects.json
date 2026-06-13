@@ -808,5 +808,267 @@
         ]
       }
     }
+  },
+  {
+    "slug": "softbridge",
+    "thumbnail": "thumbnails/softbridge.png",
+    "color": "from-blue-300 to-cyan-300",
+    "img": "/thumbnails/softbridge.png",
+    "content": {
+      "en": {
+        "title": "Soft Bridge Solutions",
+        "previewDescription": "Modern web presence and solutions platform for Soft Bridge Solutions Netherlands.",
+        "theme": "light",
+        "tags": [
+          "react",
+          "next",
+          "tailwind"
+        ],
+        "videoBorder": false,
+        "live": "https://soft-bridge-solutions-netherlands.vercel.app/",
+        "source": "https://github.com/Dpehect?tab=repositories",
+        "description": "Soft Bridge Solutions is a professional consulting and software development agency in the Netherlands. The platform features a clean, professional design highlighting their services, expertise, and contact information, built for high performance and accessibility.",
+        "components": [
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/softbridge/walkthrough.webp",
+              "alt": "Soft Bridge Solutions walkthrough video",
+              "caption": "Site Walkthrough Video"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/softbridge/softbridge1.png",
+              "alt": "Soft Bridge Solutions hero layout",
+              "caption": "Soft Bridge Solutions hero layout"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/softbridge/softbridge2.png",
+              "alt": "Services section",
+              "caption": "Services section"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/softbridge/softbridge3.png",
+              "alt": "About and expertise overview",
+              "caption": "About and expertise overview"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/softbridge/softbridge4.png",
+              "alt": "Contact and footer section",
+              "caption": "Contact and footer section"
+            }
+          }
+        ]
+      },
+      "tr": {
+        "title": "Soft Bridge Solutions",
+        "previewDescription": "Soft Bridge Solutions Hollanda için modern web platformu ve kurumsal kimlik.",
+        "theme": "light",
+        "tags": [
+          "react",
+          "next",
+          "tailwind"
+        ],
+        "videoBorder": false,
+        "live": "https://soft-bridge-solutions-netherlands.vercel.app/",
+        "source": "https://github.com/Dpehect?tab=repositories",
+        "description": "Soft Bridge Solutions, Hollanda merkezli profesyonel danışmanlık ve yazılım geliştirme ajansıdır. Platform, hizmetleri, uzmanlık alanlarını ve iletişim bilgilerini öne çıkaran temiz, profesyonel bir tasarıma sahiptir; yüksek performans ve erişilebilirlik standartlarına uygun olarak geliştirilmiştir.",
+        "components": [
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/softbridge/walkthrough.webp",
+              "alt": "Soft Bridge Solutions gezinim videosu",
+              "caption": "Site Gezinim Videosu"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/softbridge/softbridge1.png",
+              "alt": "Ana sayfa giriş bölümü",
+              "caption": "Ana sayfa giriş bölümü"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/softbridge/softbridge2.png",
+              "alt": "Hizmetlerimiz bölümü",
+              "caption": "Hizmetlerimiz bölümü"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/softbridge/softbridge3.png",
+              "alt": "Hakkımızda ve uzmanlık özeti",
+              "caption": "Hakkımızda ve uzmanlık özeti"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/softbridge/softbridge4.png",
+              "alt": "İletişim ve footer bölümü",
+              "caption": "İletişim ve footer bölümü"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "artofwebgl",
+    "thumbnail": "thumbnails/artofwebgl.png",
+    "color": "from-indigo-400 to-purple-400",
+    "img": "/thumbnails/artofwebgl.png",
+    "content": {
+      "en": {
+        "title": "Art of WebGL",
+        "previewDescription": "Interactive WebGL gallery and rendering studies built with custom shaders.",
+        "theme": "light",
+        "tags": [
+          "webgl",
+          "three",
+          "javascript",
+          "glsl"
+        ],
+        "videoBorder": false,
+        "live": "https://lnkd.in/dUWVzAHA",
+        "source": "https://github.com/Dpehect/Art-of-WebGL-Website",
+        "description": "Art of WebGL is a collection of distinct rendering studies exploring interactive 3D elements, custom shaders, and particle systems. Built to experiment with advanced WebGL techniques and creative coding, this gallery showcases fluid real-time simulations and visually stunning procedural graphics.",
+        "components": [
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/artofwebgl/walkthrough.webp",
+              "alt": "Art of WebGL walkthrough video",
+              "caption": "Site Walkthrough Video"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/artofwebgl/webgl1.png",
+              "alt": "WebGL gallery overview",
+              "caption": "WebGL gallery overview"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/artofwebgl/webgl2.png",
+              "alt": "Interactive WebGL session",
+              "caption": "Interactive WebGL session"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/artofwebgl/webgl3.png",
+              "alt": "Real-time shader visualization",
+              "caption": "Real-time shader visualization"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/artofwebgl/webgl4.png",
+              "alt": "Particle system and physics rendering",
+              "caption": "Particle system and physics rendering"
+            }
+          }
+        ]
+      },
+      "tr": {
+        "title": "Art of WebGL",
+        "previewDescription": "Özel shader'larla oluşturulmuş interaktif WebGL galerisi ve render çalışmaları.",
+        "theme": "light",
+        "tags": [
+          "webgl",
+          "three",
+          "javascript",
+          "glsl"
+        ],
+        "videoBorder": false,
+        "live": "https://lnkd.in/dUWVzAHA",
+        "source": "https://github.com/Dpehect/Art-of-WebGL-Website",
+        "description": "Art of WebGL, interaktif 3D bileşenleri, özel shader'ları ve parçacık sistemlerini inceleyen ayrıntılı render çalışmalarından oluşan bir koleksiyondur. İleri düzey WebGL teknikleri ve yaratıcı kodlama pratiklerini deneyimlemek üzere geliştirilen galeri, akıcı gerçek zamanlı simülasyonları ve büyüleyici prosedürel grafikleri bir araya getiriyor.",
+        "components": [
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/artofwebgl/walkthrough.webp",
+              "alt": "Art of WebGL gezinim videosu",
+              "caption": "Site Gezinim Videosu"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/artofwebgl/webgl1.png",
+              "alt": "WebGL galeri genel görünümü",
+              "caption": "WebGL galeri genel görünümü"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/artofwebgl/webgl2.png",
+              "alt": "İnteraktif WebGL çalışması",
+              "caption": "İnteraktif WebGL çalışması"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/artofwebgl/webgl3.png",
+              "alt": "Gerçek zamanlı shader görselleştirmesi",
+              "caption": "Gerçek zamanlı shader görselleştirmesi"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/artofwebgl/webgl4.png",
+              "alt": "Parçacık sistemi ve fizik motoru render'ı",
+              "caption": "Parçacık sistemi render alanı"
+            }
+          }
+        ]
+      }
+    }
   }
 ]

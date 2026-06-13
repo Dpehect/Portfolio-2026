@@ -1198,5 +1198,103 @@
         ]
       }
     }
+  },
+  {
+    "slug": "estoril",
+    "thumbnail": "thumbnails/estoril.png",
+    "color": "from-zinc-300 to-stone-400",
+    "img": "/thumbnails/estoril.png",
+    "content": {
+      "en": {
+        "title": "Estoril Agency",
+        "previewDescription": "Creative agency interface with cinematic motion and strong visual hierarchy built with React and Vite.",
+        "theme": "light",
+        "tags": [
+          "react",
+          "vite",
+          "tailwind",
+          "gsap",
+          "javascript"
+        ],
+        "videoBorder": false,
+        "live": "https://estoril-agency-website.vercel.app/",
+        "source": "https://github.com/Dpehect/Estoril-Agency-Website",
+        "description": "Estoril Agency Website is a React and Vite based creative agency interface for presenting a digital studio with cinematic motion, strong visual hierarchy, and a focused contact surface. The frontend uses React 19 with Vite 7, styled via Tailwind CSS 4 utility classes. Motion and interactions are driven by GSAP with ScrollTrigger for parallax behavior, Lenis for smooth scrolling, and a custom cursor component.",
+        "components": [
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/estoril/walkthrough.webp",
+              "alt": "Estoril Agency site walkthrough video",
+              "caption": "Site Walkthrough Video"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/estoril/estoril1.png",
+              "alt": "Estoril Agency hero layout and entrance animation",
+              "caption": "Estoril Agency hero layout and entrance animation"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/estoril/estoril2.png",
+              "alt": "Selected work presentation and projects section",
+              "caption": "Selected work presentation and projects section"
+            }
+          }
+        ]
+      },
+      "tr": {
+        "title": "Estoril Agency",
+        "previewDescription": "React ve Vite ile geliştirilen, sinematik geçişler ve güçlü görsel hiyerarşiye sahip yaratıcı ajans arayüzü.",
+        "theme": "light",
+        "tags": [
+          "react",
+          "vite",
+          "tailwind",
+          "gsap",
+          "javascript"
+        ],
+        "videoBorder": false,
+        "live": "https://estoril-agency-website.vercel.app/",
+        "source": "https://github.com/Dpehect/Estoril-Agency-Website",
+        "description": "Estoril Agency Website, dijital bir stüdyoyu sinematik geçişler ve güçlü görsel hiyerarşiyle sunmak için hazırlanan React ve Vite tabanlı bir yaratıcı ajans arayüzüdür. Frontend tarafında React 19 ve Vite 7 kullanılmış, stil yönetimi Tailwind CSS 4 ile sağlanmıştır. Animasyonlar ve etkileşimler GSAP ScrollTrigger ve parallax efektleriyle yönetilirken, Lenis ile smooth scroll deneyimi ve özel imleç (custom cursor) entegre edilmiştir.",
+        "components": [
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/estoril/walkthrough.webp",
+              "alt": "Estoril Agency site gezinim videosu",
+              "caption": "Site Gezinim Videosu"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/estoril/estoril1.png",
+              "alt": "Estoril Agency hero ekranı ve açılış animasyonu",
+              "caption": "Estoril Agency hero ekranı ve açılış animasyonu"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/estoril/estoril2.png",
+              "alt": "Öne çıkan çalışmalar ve projeler bölümü",
+              "caption": "Öne çıkan çalışmalar ve projeler bölümü"
+            }
+          }
+        ]
+      }
+    }
   }
 ]

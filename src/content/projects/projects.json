@@ -1070,5 +1070,133 @@
         ]
       }
     }
+  },
+  {
+    "slug": "balancedpitch",
+    "thumbnail": "thumbnails/balancedpitch.png",
+    "content": {
+      "en": {
+        "title": "Balanced Pitch",
+        "previewDescription": "A GSAP-driven album and artist website with captured production screenshots, scroll choreography, and static Vercel delivery.",
+        "theme": "dark",
+        "tags": [
+          "react",
+          "javascript",
+          "css"
+        ],
+        "videoBorder": false,
+        "live": "https://balanced-pitch-album-music-website.vercel.app/",
+        "source": "https://github.com/Dpehect/Balanced-Pitch-Album-Music-Website",
+        "description": "Balanced Pitch is a front-end music experience for an artist and album campaign. The interface combines React component composition, GSAP scroll motion, layered visual sections, responsive media framing, and a Vite production pipeline deployed as a static Vercel build. The project page includes a live walkthrough recording plus four captured screens from the deployed site to document the hero, audio-driven content blocks, album narrative, and support/footer surface.",
+        "components": [
+          {
+            "type": "media",
+            "props": {
+              "type": "video",
+              "src": "images/projects/balancedpitch/walkthrough.webm",
+              "alt": "Balanced Pitch website walkthrough video",
+              "caption": "Site walkthrough video"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/balancedpitch/balancedpitch1.png",
+              "alt": "Balanced Pitch artist hero and supported-by branding",
+              "caption": "Artist hero and supported-by branding"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/balancedpitch/balancedpitch2.png",
+              "alt": "Balanced Pitch music-focused intro section",
+              "caption": "Music-focused intro section"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/balancedpitch/balancedpitch3.png",
+              "alt": "Balanced Pitch album narrative and creative section",
+              "caption": "Album narrative and creative section"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/balancedpitch/balancedpitch4.png",
+              "alt": "Balanced Pitch footer and contact surface",
+              "caption": "Footer and contact surface"
+            }
+          }
+        ]
+      },
+      "tr": {
+        "title": "Balanced Pitch",
+        "previewDescription": "GSAP destekli album ve sanatci sitesi; canli siteden alinan uretim ekranlari, scroll koreografisi ve statik Vercel yayin akisi.",
+        "theme": "dark",
+        "tags": [
+          "react",
+          "javascript",
+          "css"
+        ],
+        "videoBorder": false,
+        "live": "https://balanced-pitch-album-music-website.vercel.app/",
+        "source": "https://github.com/Dpehect/Balanced-Pitch-Album-Music-Website",
+        "description": "Balanced Pitch, sanatci ve album kampanyasi icin hazirlanmis bir front-end muzik deneyimidir. Arayuz React bilesen yapisi, GSAP scroll hareketleri, katmanli gorsel bolumler, responsive medya cerceveleri ve Vite uretim hattini statik Vercel yayiniyla birlestirir. Proje sayfasinda canli siteden kaydedilmis bir walkthrough videosu ve hero, muzik odakli icerik bloklari, album anlatimi ve destek/footer yuzeyini belgeleyen dort ekran goruntusu yer alir.",
+        "components": [
+          {
+            "type": "media",
+            "props": {
+              "type": "video",
+              "src": "images/projects/balancedpitch/walkthrough.webm",
+              "alt": "Balanced Pitch site gezinim videosu",
+              "caption": "Site gezinim videosu"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/balancedpitch/balancedpitch1.png",
+              "alt": "Balanced Pitch sanatci hero alani ve supported-by markalama",
+              "caption": "Sanatci hero alani ve supported-by markalama"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/balancedpitch/balancedpitch2.png",
+              "alt": "Balanced Pitch muzik odakli giris bolumu",
+              "caption": "Muzik odakli giris bolumu"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/balancedpitch/balancedpitch3.png",
+              "alt": "Balanced Pitch album anlatimi ve kreatif bolum",
+              "caption": "Album anlatimi ve kreatif bolum"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/balancedpitch/balancedpitch4.png",
+              "alt": "Balanced Pitch footer ve iletisim yuzeyi",
+              "caption": "Footer ve iletisim yuzeyi"
+            }
+          }
+        ]
+      }
+    }
   }
 ]

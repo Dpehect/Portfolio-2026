@@ -816,7 +816,7 @@
     "img": "/thumbnails/softbridge.png",
     "content": {
       "en": {
-        "title": "Soft Bridge Solutions",
+        "title": "SoftBridge Solutions Netherlands",
         "previewDescription": "Modern web presence and solutions platform for Soft Bridge Solutions Netherlands.",
         "theme": "light",
         "tags": [
@@ -826,7 +826,7 @@
         ],
         "videoBorder": false,
         "live": "https://soft-bridge-solutions-netherlands.vercel.app/",
-        "source": "https://github.com/Dpehect?tab=repositories",
+        "source": "https://github.com/Dpehect/SoftBridgeSolutions-Netherlands",
         "description": "Soft Bridge Solutions is a professional consulting and software development agency in the Netherlands. The platform features a clean, professional design highlighting their services, expertise, and contact information, built for high performance and accessibility.",
         "components": [
           {
@@ -877,7 +877,7 @@
         ]
       },
       "tr": {
-        "title": "Soft Bridge Solutions",
+        "title": "SoftBridge Solutions Netherlands",
         "previewDescription": "Soft Bridge Solutions Hollanda için modern web platformu ve kurumsal kimlik.",
         "theme": "light",
         "tags": [
@@ -887,7 +887,7 @@
         ],
         "videoBorder": false,
         "live": "https://soft-bridge-solutions-netherlands.vercel.app/",
-        "source": "https://github.com/Dpehect?tab=repositories",
+        "source": "https://github.com/Dpehect/SoftBridgeSolutions-Netherlands",
         "description": "Soft Bridge Solutions, Hollanda merkezli profesyonel danışmanlık ve yazılım geliştirme ajansıdır. Platform, hizmetleri, uzmanlık alanlarını ve iletişim bilgilerini öne çıkaran temiz, profesyonel bir tasarıma sahiptir; yüksek performans ve erişilebilirlik standartlarına uygun olarak geliştirilmiştir.",
         "components": [
           {
@@ -956,7 +956,7 @@
           "glsl"
         ],
         "videoBorder": false,
-        "live": "https://lnkd.in/dUWVzAHA",
+        "live": "https://art-of-web-gl-website.vercel.app/",
         "source": "https://github.com/Dpehect/Art-of-WebGL-Website",
         "description": "Art of WebGL is a collection of distinct rendering studies exploring interactive 3D elements, custom shaders, and particle systems. Built to experiment with advanced WebGL techniques and creative coding, this gallery showcases fluid real-time simulations and visually stunning procedural graphics.",
         "components": [
@@ -1018,7 +1018,7 @@
           "glsl"
         ],
         "videoBorder": false,
-        "live": "https://lnkd.in/dUWVzAHA",
+        "live": "https://art-of-web-gl-website.vercel.app/",
         "source": "https://github.com/Dpehect/Art-of-WebGL-Website",
         "description": "Art of WebGL, interaktif 3D bileşenleri, özel shader'ları ve parçacık sistemlerini inceleyen ayrıntılı render çalışmalarından oluşan bir koleksiyondur. İleri düzey WebGL teknikleri ve yaratıcı kodlama pratiklerini deneyimlemek üzere geliştirilen galeri, akıcı gerçek zamanlı simülasyonları ve büyüleyici prosedürel grafikleri bir araya getiriyor.",
         "components": [

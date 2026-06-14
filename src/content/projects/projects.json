@@ -973,15 +973,6 @@
             "type": "media",
             "props": {
               "type": "image",
-              "src": "images/projects/artofwebgl/webgl1.png",
-              "alt": "WebGL gallery overview",
-              "caption": "WebGL gallery overview"
-            }
-          },
-          {
-            "type": "media",
-            "props": {
-              "type": "image",
               "src": "images/projects/artofwebgl/webgl2.png",
               "alt": "Interactive WebGL session",
               "caption": "Interactive WebGL session"
@@ -994,15 +985,6 @@
               "src": "images/projects/artofwebgl/webgl3.png",
               "alt": "Real-time shader visualization",
               "caption": "Real-time shader visualization"
-            }
-          },
-          {
-            "type": "media",
-            "props": {
-              "type": "image",
-              "src": "images/projects/artofwebgl/webgl4.png",
-              "alt": "Particle system and physics rendering",
-              "caption": "Particle system and physics rendering"
             }
           }
         ]
@@ -1035,15 +1017,6 @@
             "type": "media",
             "props": {
               "type": "image",
-              "src": "images/projects/artofwebgl/webgl1.png",
-              "alt": "WebGL galeri genel görünümü",
-              "caption": "WebGL galeri genel görünümü"
-            }
-          },
-          {
-            "type": "media",
-            "props": {
-              "type": "image",
               "src": "images/projects/artofwebgl/webgl2.png",
               "alt": "İnteraktif WebGL çalışması",
               "caption": "İnteraktif WebGL çalışması"
@@ -1056,15 +1029,6 @@
               "src": "images/projects/artofwebgl/webgl3.png",
               "alt": "Gerçek zamanlı shader görselleştirmesi",
               "caption": "Gerçek zamanlı shader görselleştirmesi"
-            }
-          },
-          {
-            "type": "media",
-            "props": {
-              "type": "image",
-              "src": "images/projects/artofwebgl/webgl4.png",
-              "alt": "Parçacık sistemi ve fizik motoru render'ı",
-              "caption": "Parçacık sistemi render alanı"
             }
           }
         ]

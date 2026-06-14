@@ -132,6 +132,7 @@
         ],
         "videoBorder": false,
         "live": "https://supplement-store-alpha.vercel.app/",
+        "source": "https://github.com/Dpehect/Supplement-Store",
         "description": "SoftBridge Supplements is a highly performant, fully interactive premium supplement storefront designed with a comic-book aesthetic. Built on Next.js 15 and React 19, it utilizes GSAP ScrollTrigger for dynamic page transitions and dynamic scroll-responsive background color interpolation. Product cards display custom WebGL and GLSL fragment shaders for a fluid ripple effect. The entry features a physics-based particle preloader representing supplement powder.",
         "components": [
           {
@@ -194,6 +195,7 @@
         ],
         "videoBorder": false,
         "live": "https://supplement-store-alpha.vercel.app/",
+        "source": "https://github.com/Dpehect/Supplement-Store",
         "description": "SoftBridge Supplements, çizgi roman hissini teknik olarak güçlü bir alışveriş deneyimiyle birleştiren interaktif bir supplement mağazası. Next.js 15 ve React 19 üzerine kuruldu; sayfa geçişleri, scroll'a bağlı hareketler ve arka plan renk geçişleri GSAP ScrollTrigger ile yönetiliyor. Ürün kartlarında akışkan ripple efekti için özel WebGL ve GLSL fragment shader'ları kullanılıyor. Giriş ekranındaki parçacık yapısı da supplement tozu hareketini fizik tabanlı bir animasyonla temsil ediyor.",
         "components": [
           {

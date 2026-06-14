@@ -18,6 +18,13 @@ export interface Props {
 
 const props = defineProps<Props>();
 
+const sourceType = computed(() => {
+  const src = props.src.split("?")[0]?.toLowerCase() ?? "";
+  if (src.endsWith(".webm")) return "video/webm";
+  if (src.endsWith(".ogg") || src.endsWith(".ogv")) return "video/ogg";
+  return "video/mp4";
+});
+
 const wrapperClasses = computed(() => {
   return {
     "project-media": true,
@@ -75,7 +82,7 @@ onMounted(async () => {
         class="project-media-video"
         ref="mediaRef"
       >
-        <source :src="props.src" type="video/mp4" />
+        <source :src="props.src" :type="sourceType" />
       </video>
     </div>
     <div class="project-media-caption" v-if="props.caption">

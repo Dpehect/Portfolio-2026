@@ -1,5 +1,117 @@
 [
   {
+    "slug": "sciascia-caffe-1919",
+    "thumbnail": "thumbnails/sciascia-caffe-1919.png",
+    "color": "from-stone-900 to-amber-300",
+    "img": "/thumbnails/sciascia-caffe-1919.png",
+    "content": {
+      "en": {
+        "title": "Sciascia Caffè 1919",
+        "previewDescription": "Coffee shop landing page with a full brand refresh, captured product visuals, and deployment-ready Next.js structure.",
+        "theme": "light",
+        "tags": [
+          "next",
+          "react",
+          "javascript",
+          "css"
+        ],
+        "videoBorder": false,
+        "source": "https://github.com/Dpehect/Sciascia-Caff-Webstie",
+        "description": "Sciascia Caffè 1919 is a rebranded coffee shop landing page built with Next.js 15, React 18, TypeScript, Tailwind CSS, Framer Motion, GSAP, Locomotive Scroll, and Swiper. The work covers visible brand replacement, footer attribution, README/license ownership updates, Vercel configuration, and real project media captured from the running site.",
+        "components": [
+          {
+            "type": "media",
+            "props": {
+              "type": "video",
+              "src": "images/projects/sciascia-caffe-1919/sciascia-walkthrough.webm",
+              "alt": "Sciascia Caffè 1919 site walkthrough video",
+              "caption": "Site Walkthrough Video"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/sciascia-caffe-1919/sciascia-hero.png",
+              "alt": "Sciascia Caffè 1919 landing page hero section",
+              "caption": "Landing page hero and primary cafe brand treatment"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/sciascia-caffe-1919/sciascia-cup-explore.png",
+              "alt": "Sciascia Caffè branded coffee cup and product feature grid",
+              "caption": "Coffee cup branding and feature grid"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/sciascia-caffe-1919/sciascia-footer-credit.png",
+              "alt": "Sciascia Caffè footer with SoftBridge Solutions project credit",
+              "caption": "Footer attribution and final page section"
+            }
+          }
+        ]
+      },
+      "tr": {
+        "title": "Sciascia Caffè 1919",
+        "previewDescription": "Tam marka yenilemesi, gerçek ekran medyaları ve Vercel'e hazır Next.js yapısıyla hazırlanmış kafe landing page projesi.",
+        "theme": "light",
+        "tags": [
+          "next",
+          "react",
+          "javascript",
+          "css"
+        ],
+        "videoBorder": false,
+        "source": "https://github.com/Dpehect/Sciascia-Caff-Webstie",
+        "description": "Sciascia Caffè 1919, Next.js 15, React 18, TypeScript, Tailwind CSS, Framer Motion, GSAP, Locomotive Scroll ve Swiper ile hazırlanmış yeniden markalanmış bir kafe landing page projesidir. Çalışma; görünür marka değişimini, footer atfını, README/lisans sahiplik güncellemelerini, Vercel yapılandırmasını ve çalışan siteden alınmış gerçek proje medyalarını kapsar.",
+        "components": [
+          {
+            "type": "media",
+            "props": {
+              "type": "video",
+              "src": "images/projects/sciascia-caffe-1919/sciascia-walkthrough.webm",
+              "alt": "Sciascia Caffè 1919 site gezinim videosu",
+              "caption": "Site Gezinim Videosu"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/sciascia-caffe-1919/sciascia-hero.png",
+              "alt": "Sciascia Caffè 1919 landing page giriş alanı",
+              "caption": "Landing page hero ve ana kafe marka sunumu"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/sciascia-caffe-1919/sciascia-cup-explore.png",
+              "alt": "Sciascia Caffè markalı kahve bardağı ve ürün özellikleri alanı",
+              "caption": "Kahve bardağı markalaması ve özellik grid'i"
+            }
+          },
+          {
+            "type": "media",
+            "props": {
+              "type": "image",
+              "src": "images/projects/sciascia-caffe-1919/sciascia-footer-credit.png",
+              "alt": "SoftBridge Solutions proje atfını gösteren Sciascia Caffè footer alanı",
+              "caption": "Footer atfı ve son sayfa bölümü"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
     "slug": "suppstore",
     "thumbnail": "thumbnails/suppstore.png",
     "color": "from-red-300 to-amber-300",

@@ -16,7 +16,8 @@
           "css"
         ],
         "videoBorder": false,
-        "source": "https://github.com/Dpehect/Sciascia-Caff-Webstie",
+        "live": "https://github.com/Dpehect/Sciascia-Caff-Website",
+        "source": "https://github.com/Dpehect/Sciascia-Caff-Website",
         "description": "Sciascia Caffè 1919 is a rebranded coffee shop landing page built with Next.js 15, React 18, TypeScript, Tailwind CSS, Framer Motion, GSAP, Locomotive Scroll, and Swiper. The work covers visible brand replacement, footer attribution, README/license ownership updates, Vercel configuration, and real project media captured from the running site.",
         "components": [
           {
@@ -68,7 +69,8 @@
           "css"
         ],
         "videoBorder": false,
-        "source": "https://github.com/Dpehect/Sciascia-Caff-Webstie",
+        "live": "https://github.com/Dpehect/Sciascia-Caff-Website",
+        "source": "https://github.com/Dpehect/Sciascia-Caff-Website",
         "description": "Sciascia Caffè 1919, Next.js 15, React 18, TypeScript, Tailwind CSS, Framer Motion, GSAP, Locomotive Scroll ve Swiper ile hazırlanmış yeniden markalanmış bir kafe landing page projesidir. Çalışma; görünür marka değişimini, footer atfını, README/lisans sahiplik güncellemelerini, Vercel yapılandırmasını ve çalışan siteden alınmış gerçek proje medyalarını kapsar.",
         "components": [
           {
